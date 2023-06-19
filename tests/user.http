@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8000/api/v1/users/show
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:8000/api/v1/users
+Content-Type: application/json
+
+{
+    "email": "syedhar2297@gmail.com",
+    "first_name": "haaris",
+    "last_name": "syed",
+    "password": "rootroot"
+}
+
+###
+#Content-Type: application/x-www-form-urlencoded
+#
+#email=syedhaaris97@gmail.com&=haaris&=syed
